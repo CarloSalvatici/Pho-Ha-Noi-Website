@@ -5,6 +5,7 @@
 <main>
 	<header class="bg-black py-5">
 		<h1 class="text-white">Pho Ha Noi</h1>
+		<span>new change</span>
 	</header>
 </main>
 
