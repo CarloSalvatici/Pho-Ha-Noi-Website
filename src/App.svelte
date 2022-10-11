@@ -1,6 +1,6 @@
 <script>
-	let appetizer = true
-	let banhMi = true
+	let appetizer = false
+	let banhMi = false
 	const toggleAppetizer = () => {
 		appetizer = !appetizer
 	}
@@ -139,13 +139,13 @@
 	main {
 		
 		text-align: center;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
 	header {
 		font-family: titleFont;
 		background: black;
+		width: 100%;
 	}
 
 	h1 {
@@ -168,7 +168,11 @@
 	}
 
 	.mc-title:hover {
-		background: rgba(0, 0, 0, .05);
+		background: rgba(200, 220, 255, .5);
+		transition: .3s all;
+	}
+
+	.mc-title {
 		transition: .3s all;
 	}
 
