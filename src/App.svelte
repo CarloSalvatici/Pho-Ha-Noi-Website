@@ -63,12 +63,14 @@
 
 <main>
 	<header class="bg-black py-5">
-		<h1 class="text-white TITLE">PHỞ HÀ NỘI</h1>
-		<img class="pho-bowl-image" src="pho-bowl.png" alt="Pho Bowl">
+		<div class="title my-2 mb-4">
+			<h1 class="text-white title-text my-0 me-3">PHỞ HÀ NỘI</h1>
+			<img class="pho-bowl-image" src="pho-bowl.png" alt="Pho Bowl">
+		</div>
 		<h4 class="text-white">(352) 373-2098</h4>
 		<h4 class="text-white">3550 SW 34th Street</h4>
 		<h4 class="text-white">Dine In or Carry Out from 11:00AM - 9:30PM</h4>
-	</header>
+		</header>
 	<div class="p-3 menu">
 		<h1 class="p-4 menu-title">Menu</h1>
 		<div class="menu-category">
@@ -312,157 +314,307 @@
 				</div>
 			{/if}
 		</div>
-		<h2 class="mc-title p-1 pb-2" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
-		{#if porkSoup == true}
-			<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots, chives, and a salted radish crumble. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3>T-1 Hủ Tiếu Hà Nội</h3>
-					<span>Noodle soup with BBQ pork and seafood medly of crab meat, squid, and shrimp.</span>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
+			{#if porkSoup == true}
+				<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots, chives, and a salted radish crumble. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>T-1 Hủ Tiếu Hà Nội</h3>
+						<span>Noodle soup with BBQ pork and seafood medly of crab meat, squid, and shrimp.</span>
+					</div>
+					<div class="mc-item">
+						<h3>T-2 Hủ Tiếu Xả Xíu</h3>
+						<span>Noodle soup with our slow roasted Chinese BBQ pork.</span>
+					</div>
+					<div class="mc-item">
+						<h3>T-3 Hủ Tiếu Tôm Chiên</h3>
+						<span>Noodle soup with fried shrimp.</span>
+					</div>
+					<div class="mc-item">
+						<h3>T-4 Hủ Tiếu Bò Viên</h3>
+						<span>Noodle soup with sliced meatballs.</span>
+					</div>
+					<div class="mc-item">
+						<h3>T-5 Hủ Tiếu Hải Sản</h3>
+						<span>Noodle soup with seafood combination of crab meat, squid, and shrimp.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>T-2 Hủ Tiếu Xả Xíu</h3>
-					<span>Noodle soup with our slow roasted Chinese BBQ pork.</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglericePlatter}>Cơm Dĩa - Rice Platter</h2>
+			{#if ricePlatter == true}
+				<span>Rice entrees are served with your choice of white or yellow rice, a side of lettuce, tomato, pickled carrots and daikon, and a sweet and tangy Vietnamese Fish Sauce.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>#1 Cơm Thịt Heo Nướng</h3>
+						<span>Rice with grilled pork.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#2 Cơm Bì Thịt Heo Nướng</h3>
+						<span>Rice with grilled pork and shredded pork skins.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#3 Cơm Bì Chả Thịt Heo Nướng</h3>
+						<span>Rice with shredded pork skins, steamed egg cake, and grilled pork.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#4 Cơm Thịt Bì Xào Hành Tây</h3>
+						<span>Rice with stir fried beef and onions.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#5 Cơm Thịt Bỏ Xào Rau Cải</h3>
+						<span>Rice with stir fried beef and vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#6 Cơm Gà Hà Nội Xào Chua Ngọt</h3>
+						<span>Breaded chicken, bamboo shoots, and mixed vegetables wok sautéed in a sweet and sour brown glaze.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#7 Cơm Gà Xào Lăn</h3>
+						<span>Chicken and glass noodles with onions, celery, carrots, and diced blacked mushrooms in a yellow curry and fish sauce blend.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#8 Cơm Gà Xào Hạt Điều</h3>
+						<span>White meat chicken stir fried with onions, celery, and green peppers in a cashew sauce.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#9 Cơm Gà Nướng</h3>
+						<span>Rice with grilled chicken.</span>
+					</div>
+					<div class="mc-item">
+						<h3>#10 Cơm Gà Xào Rau Cải</h3>
+						<span>Rice with stir fried chicken and mixed vegetables.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>T-3 Hủ Tiếu Tôm Chiên</h3>
-					<span>Noodle soup with fried shrimp.</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglevermicelli}>Bún - Rice Vermicelli</h2>
+			{#if vermicelli == true}
+				<span>A salad-style rice noodle bowl that starts with a base of shredded lettuce, cucumber, and beansprouts topped with rice vermicelli noodles finished with crunchy peanuts, and fried onion topping. Served with Vietnamese Fish Sauce on side.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>V-1 Bún Gà Nướng</h3>
+						<span>Rice vermicelli with grilled chicken.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-2 Bún Heo Nướng</h3>
+						<span>Rice vermicelli with grilled pork.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-3 Bún Chả Giò</h3>
+						<span>Rice vermicelli with crispy egg rolls.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-4 Bún Chả Giò Thịt Nướng</h3>
+						<span>Rice vermicelli with crispy egg rolls and choice of grilled pork or chicken.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-5 Bún Bỏ Xào</h3>
+						<span>Rice vermicelli with stir fried lemongrass, beef, and onions.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-6 Bún Gà Xào</h3>
+						<span>Rice vermicelli with stir fried lemongrass, chicken, and onions.</span>
+					</div>
+					<div class="mc-item">
+						<h3>V-7 Bún Chả Giò Chay</h3>
+						<span>Rice vermicelli with vegetarian egg rolls and tofu.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>T-4 Hủ Tiếu Bò Viên</h3>
-					<span>Noodle soup with sliced meatballs.</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglevegetarian}>Dĩa Chay - Vegetarian Dishes</h2>
+			{#if vegetarian == true}
+				<span></span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>VG-1 Cơm Đậu Hủ Chiên Sốt Cà</h3>
+						<span>White or yellow rice with fried tofu in tomato sauce.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-2 Cơm Đầu Hủ Chiên Xào Rau</h3>
+						<span>White or yellow rice with stir fried tofu and vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-3 Bủn Rau Đậu Hủ</h3>
+						<span>Rice vermicelli with steamed mixed vegetables and tofu.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-4 Bủn Xào Rau Đậu Hủ</h3>
+						<span>Rice vermicelli with stir fried tofu and mixed vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-5 Mì Xào Dòn Hay Mềm Rau Cải</h3>
+						<span>Pan fried egg noodles (soft or crispy) with vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-6 Mì Xào Dòn Hay Mềm Rau Cài Đậu Hủ</h3>
+						<span>Pan fried egg noodles (soft or crispy) with tofu and vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>VG-7 Phở Xao Rau Cải Đấu Hú</h3>
+						<span>Pan fried rice noodles with tofu and mixed vegetables.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>T-5 Hủ Tiếu Hải Sản</h3>
-					<span>Noodle soup with seafood combination of crab meat, squid, and shrimp.</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglefish}>Cả - Fish</h2>
+			{#if fish == true}
+				<span>Entrees include two whitefish fillets deep fried with a variety of different preparation and sauces. Served with white or yellow rice.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>FH-1 Cà Chiên Vàng Nước Mắm Gừng</h3>
+						<span>Fried fish in ginger sauce.</span>
+					</div>
+					<div class="mc-item">
+						<h3>FH-2 Cà Chiên Sốt Cà</h3>
+						<span>Fried fish, tomatoes, and white onions in a tomato sauce.</span>
+					</div>
+					<div class="mc-item">
+						<h3>FH-3 Cà Chiên Sốt Chua Ngọt</h3>
+						<span>Fried fish, carrots, onions, bamboo shoots, celery, and water chestnuts wok sautéed in a sweet and sour sauce.</span>
+					</div>
 				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglericePlatter}></h2>
-		{#if ricePlatter == true}
-			<span>Rice entrees are served with your choice of white or yellow rice, a side of lettuce, tomato, pickled carrots and daikon, and a sweet and tangy Vietnamese Fish Sauce.</span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglesquid}>Mực - Squid</h2>
+			{#if squid == true}
+				<span>All squid entrees are served with white or yellow rice.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>SQ-1 Mực Xào Xã Ởt</h3>
+						<span>Stir fried squid with lemongrass.</span>
+					</div>
+					<div class="mc-item">
+						<h3>SQ-2 Mực Xào Chua Ngọt</h3>
+						<span>Stir fried sweet and sour squid with mixed vegetables.</span>
+					</div>
+					<div class="mc-item">
+						<h3>SQ-3 Mực Xào Cà Ri</h3>
+						<span>Yellow curry squid stir fried with onions and green peppers.</span>
+					</div>
+					<div class="mc-item">
+						<h3>SQ-4 Mực Xào Rau Cải</h3>
+						<span>Stir fried squid with cucumber, celery, onions and tomatoes.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={toggleshrimp}>Tôm - Shrimp</h2>
+			{#if shrimp == true}
+				<span>Shrimp entrees are served with white or yellow rice.</span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>SH-1 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>SH-2 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>SH-3 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>SH-4 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>SH-5 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={togglespecialties}>Hà Nội Specialties</h2>
+			{#if specialties == true}
+				<span></span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>S-1 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-2 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-3 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-4 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-5 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-6 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-7 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-8 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-9 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-10 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-11 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-12 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
+					<div class="mc-item">
+						<h3>S-13 BLANKTITLE</h3>
+						<span>BLANKDESC</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
+			{/if}
+		</div>
+		<div class="menu-category">
+			<h2 class="mc-title p-1 pb-2" on:click={toggledessert}>Dessert</h2>
+			{#if dessert == true}
+				<span></span>
+				<hr>
+				<div class="mc-item-list">
+					<div class="mc-item">
+						<h3>D-1 Fried Bananas (6)</h3>
+						<span>Sliced sweet banana deep fried in tempura batter and dusted in powdered sugar.</span>
+					</div>
 				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-				<div class="mc-item">
-					<h3>Cơm</h3>
-					<span>Rice with</span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglevermicelli}></h2>
-		{#if vermicelli == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglevegetarian}></h2>
-		{#if vegetarian == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglefish}></h2>
-		{#if fish == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglesquid}></h2>
-		{#if squid == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={toggleshrimp}></h2>
-		{#if shrimp == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={togglespecialties}></h2>
-		{#if specialties == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
-		<h2 class="mc-title p-1 pb-2" on:click={toggledessert}></h2>
-		{#if dessert == true}
-			<span></span>
-			<hr>
-			<div class="mc-item-list">
-				<div class="mc-item">
-					<h3></h3>
-					<span></span>
-				</div>
-			</div>
-		{/if}
+			{/if}
+		</div>	
 	</div>
 </main>
 
@@ -497,7 +649,20 @@
 		padding-top: 1em;
 	}
 
+	.title-text {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.pho-bowl-image {
+		display: inline-block;
+		width: 110px;
+		height: auto;
+		vertical-align: middle;
+	}
+
 	.menu {
+		text-align: center;
 		max-width: 80%;
 		margin: 0 auto;
 		font-family: titleFont;
@@ -508,7 +673,7 @@
 		padding: 0px 0px 20px 0px !important;
 	}
 	.menu-category:nth-child(odd) {
-		background: rgb(212, 234, 255);
+		background: rgb(215, 236, 255);
 	}
 	.mc-title:hover {
 		background: rgba(0, 100, 255, .1);
@@ -534,12 +699,6 @@
 		height: auto;
 		text-align: center;
 		border: 1px all black;
-	}
-
-	.pho-bowl-image {
-		border: 1px solid white;
-		width: 400px;
-		height: auto;
 	}
 
 	@media (min-width: 640px) {
