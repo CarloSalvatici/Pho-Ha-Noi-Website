@@ -78,11 +78,11 @@
 		<h4 class="text-white">(352) 373-2098</h4>
 		<h4 class="text-white">3550 SW 34th Street</h4>
 		<h4 class="text-white">Dine In or Carry Out from 11:00AM - 9:30PM</h4>
-		</header>
+	</header>
 	<div class="p-3 menu">
 		<h1 class="p-4 menu-title">Menu</h1>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={toggleappetizer}>Appetizers</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleappetizer}>Appetizers</h2>
 			{#if appetizer == true}
 				<hr>
 				<div class="mc-item-list">
@@ -138,7 +138,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglebanhMi}>Bánh Mì - Vietnamese Sandwiches</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglebanhMi}>Bánh Mì - Vietnamese Sandwiches</h2>
 			{#if banhMi == true}
 				<span>A light, crisp authentic bite of Vietnam, served on toasted French baguette with our homemade paté and mayonnaise, pickled carrots and daikon, cucumber, fresh jalapeños, cilantro, salt, pepper, and soy sauce.</span>
 				<hr>
@@ -203,7 +203,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglegoi}>Gỏi - Vietnamese Salad</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglegoi}>Gỏi - Vietnamese Salad</h2>
 			{#if goi == true}
 				<span>A deliciously fresh and vibrant salad composed of shredded purple cabbage and green cabbage, onions, pickled carrots and daikon, topped with cilantro, roasted onions and peanuts. All served with Vietnamese Fish Sauce and crispy shrimp chips on the side.</span>
 				<hr>
@@ -228,7 +228,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglefriedRice}>Cơm Chiên - Fried Rice</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglefriedRice}>Cơm Chiên - Fried Rice</h2>
 			{#if friedRice == true}
 				<span>A light yet flavorful wok fried rice seasoned with soy sauce, fish sauce, salt, and black pepper. Accompanied by beansprouts, scrambled eggs, and scallions.</span>
 				<hr>
@@ -261,7 +261,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglespecial}>Special</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglespecial}>Special</h2>
 			{#if special == true}
 				<span></span>
 				<hr>
@@ -278,7 +278,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglepho}>Phở</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglepho}>Phở</h2>
 			{#if pho == true}
 				<span>An aromatic and savory soup served with thin rice noodles over our signature beef broth with sliced onions, scallions, and cilantro. All soups come with a side of fresh beansprouts, jalapenos, lime, and Thai basil.</span>
 				<hr>
@@ -323,7 +323,7 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
 			{#if porkSoup == true}
 				<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots, chives, and a salted radish crumble. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
 				<hr>
@@ -352,290 +352,286 @@
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglericePlatter}>Cơm Dĩa - Rice Platter</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglericePlatter}>Cơm Dĩa - Rice Platter</h2>
 			{#if ricePlatter == true}
 				<span>Rice entrees are served with your choice of white or yellow rice, a side of lettuce, tomato, pickled carrots and daikon, and a sweet and tangy Vietnamese Fish Sauce.</span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>#1 Cơm Thịt Heo Nướng</h3>
-						<span>Rice with grilled pork.</span>
+						<span>Rice with grilled pork. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#2 Cơm Bì Thịt Heo Nướng</h3>
-						<span>Rice with grilled pork and shredded pork skins.</span>
+						<span>Rice with grilled pork and shredded pork skins. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#3 Cơm Bì Chả Thịt Heo Nướng</h3>
-						<span>Rice with shredded pork skins, steamed egg cake, and grilled pork.</span>
+						<span>Rice with shredded pork skins, steamed egg cake, and grilled pork. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#4 Cơm Thịt Bì Xào Hành Tây</h3>
-						<span>Rice with stir fried beef and onions.</span>
+						<span>Rice with stir fried beef and onions. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>#5 Cơm Thịt Bỏ Xào Rau Cải</h3>
-						<span>Rice with stir fried beef and vegetables.</span>
+						<span>Rice with stir fried beef and vegetables. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>#6 Cơm Gà Hà Nội Xào Chua Ngọt</h3>
-						<span>Breaded chicken, bamboo shoots, and mixed vegetables wok sautéed in a sweet and sour brown glaze.</span>
+						<span>Breaded chicken, bamboo shoots, and mixed vegetables wok sautéed in a sweet and sour brown glaze. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#7 Cơm Gà Xào Lăn</h3>
-						<span>Chicken and glass noodles with onions, celery, carrots, and diced blacked mushrooms in a yellow curry and fish sauce blend.</span>
+						<span>Chicken and glass noodles with onions, celery, carrots, and diced blacked mushrooms in a yellow curry and fish sauce blend. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#8 Cơm Gà Xào Hạt Điều</h3>
-						<span>White meat chicken stir fried with onions, celery, and green peppers in a cashew sauce.</span>
+						<span>White meat chicken stir fried with onions, celery, and green peppers in a cashew sauce. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#9 Cơm Gà Nướng</h3>
-						<span>Rice with grilled chicken.</span>
+						<span>Rice with grilled chicken. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>#10 Cơm Gà Xào Rau Cải</h3>
-						<span>Rice with stir fried chicken and mixed vegetables.</span>
+						<span>Rice with stir fried chicken and mixed vegetables. $12.5</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglevermicelli}>Bún - Rice Vermicelli</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglevermicelli}>Bún - Rice Vermicelli</h2>
 			{#if vermicelli == true}
 				<span>A salad-style rice noodle bowl that starts with a base of shredded lettuce, cucumber, and beansprouts topped with rice vermicelli noodles finished with crunchy peanuts, and fried onion topping. Served with Vietnamese Fish Sauce on side.</span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>V-1 Bún Gà Nướng</h3>
-						<span>Rice vermicelli with grilled chicken.</span>
+						<span>Rice vermicelli with grilled chicken. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-2 Bún Heo Nướng</h3>
-						<span>Rice vermicelli with grilled pork.</span>
+						<span>Rice vermicelli with grilled pork. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-3 Bún Chả Giò</h3>
-						<span>Rice vermicelli with crispy egg rolls.</span>
+						<span>Rice vermicelli with crispy egg rolls. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-4 Bún Chả Giò Thịt Nướng</h3>
-						<span>Rice vermicelli with crispy egg rolls and choice of grilled pork or chicken.</span>
+						<span>Rice vermicelli with crispy egg rolls and choice of grilled pork or chicken. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-5 Bún Bỏ Xào</h3>
-						<span>Rice vermicelli with stir fried lemongrass, beef, and onions.</span>
+						<span>Rice vermicelli with stir fried lemongrass, beef, and onions. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-6 Bún Gà Xào</h3>
-						<span>Rice vermicelli with stir fried lemongrass, chicken, and onions.</span>
+						<span>Rice vermicelli with stir fried lemongrass, chicken, and onions. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>V-7 Bún Chả Giò Chay</h3>
-						<span>Rice vermicelli with vegetarian egg rolls and tofu.</span>
+						<span>Rice vermicelli with vegetarian egg rolls and tofu. $12.5</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglevegetarian}>Dĩa Chay - Vegetarian Dishes</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglevegetarian}>Dĩa Chay - Vegetarian Dishes</h2>
 			{#if vegetarian == true}
 				<span></span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>VG-1 Cơm Đậu Hủ Chiên Sốt Cà</h3>
-						<span>White or yellow rice with fried tofu in tomato sauce.</span>
+						<span>White or yellow rice with fried tofu in tomato sauce. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-2 Cơm Đầu Hủ Chiên Xào Rau</h3>
-						<span>White or yellow rice with stir fried tofu and vegetables.</span>
+						<span>White or yellow rice with stir fried tofu and vegetables. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-3 Bủn Rau Đậu Hủ</h3>
-						<span>Rice vermicelli with steamed mixed vegetables and tofu.</span>
+						<span>Rice vermicelli with steamed mixed vegetables and tofu. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-4 Bủn Xào Rau Đậu Hủ</h3>
-						<span>Rice vermicelli with stir fried tofu and mixed vegetables.</span>
+						<span>Rice vermicelli with stir fried tofu and mixed vegetables. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-5 Mì Xào Dòn Hay Mềm Rau Cải</h3>
-						<span>Pan fried egg noodles (soft or crispy) with vegetables.</span>
+						<span>Pan fried egg noodles (soft or crispy) with vegetables. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-6 Mì Xào Dòn Hay Mềm Rau Cài Đậu Hủ</h3>
-						<span>Pan fried egg noodles (soft or crispy) with tofu and vegetables.</span>
+						<span>Pan fried egg noodles (soft or crispy) with tofu and vegetables. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>VG-7 Phở Xao Rau Cải Đấu Hú</h3>
-						<span>Pan fried rice noodles with tofu and mixed vegetables.</span>
+						<span>Pan fried rice noodles with tofu and mixed vegetables. $13</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglefish}>Cả - Fish</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglefish}>Cả - Fish</h2>
 			{#if fish == true}
 				<span>Entrees include two whitefish fillets deep fried with a variety of different preparation and sauces. Served with white or yellow rice.</span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>FH-1 Cà Chiên Vàng Nước Mắm Gừng</h3>
-						<span>Fried fish in ginger sauce.</span>
+						<span>Fried fish in ginger sauce. $14.45</span>
 					</div>
 					<div class="mc-item">
 						<h3>FH-2 Cà Chiên Sốt Cà</h3>
-						<span>Fried fish, tomatoes, and white onions in a tomato sauce.</span>
+						<span>Fried fish, tomatoes, and white onions in a tomato sauce. $14.45</span>
 					</div>
 					<div class="mc-item">
 						<h3>FH-3 Cà Chiên Sốt Chua Ngọt</h3>
-						<span>Fried fish, carrots, onions, bamboo shoots, celery, and water chestnuts wok sautéed in a sweet and sour sauce.</span>
+						<span>Fried fish, carrots, onions, bamboo shoots, celery, and water chestnuts wok sautéed in a sweet and sour sauce. $14.45</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglesquid}>Mực - Squid</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglesquid}>Mực - Squid</h2>
 			{#if squid == true}
 				<span>All squid entrees are served with white or yellow rice.</span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>SQ-1 Mực Xào Xã Ởt</h3>
-						<span>Stir fried squid with lemongrass.</span>
+						<span>Stir fried squid with lemongrass. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SQ-2 Mực Xào Chua Ngọt</h3>
-						<span>Stir fried sweet and sour squid with mixed vegetables.</span>
+						<span>Stir fried sweet and sour squid with mixed vegetables. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SQ-3 Mực Xào Cà Ri</h3>
-						<span>Yellow curry squid stir fried with onions and green peppers.</span>
+						<span>Yellow curry squid stir fried with onions and green peppers. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SQ-4 Mực Xào Rau Cải</h3>
-						<span>Stir fried squid with cucumber, celery, onions and tomatoes.</span>
+						<span>Stir fried squid with cucumber, celery, onions and tomatoes. $13.5</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={toggleshrimp}>Tôm - Shrimp</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleshrimp}>Tôm - Shrimp</h2>
 			{#if shrimp == true}
 				<span>Shrimp entrees are served with white or yellow rice.</span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>SH-1 Tôm Rim</h3>
-						<span>Shrimp marinated in pepper and fish sauce.</span>
+						<span>Shrimp marinated in pepper and fish sauce. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SH-2 Tôm Xào Xả Ớt</h3>
-						<span>Shrimp with lemongrass stir-fry.</span>
+						<span>Shrimp with lemongrass stir-fry. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SH-3 Tôm Xào Cải Broccoli</h3>
-						<span>Stir fried shrimp and broccoli.</span>
+						<span>Stir fried shrimp and broccoli. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SH-4 Tôm Xào Rau</h3>
-						<span>Stir fried shrimp and mixed vegetables.</span>
+						<span>Stir fried shrimp and mixed vegetables. $13.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>SH-5 Canh Chua Tôm</h3>
-						<span>A tangy yet sweet hot-pot style shrimp soup with beansprouts, tomatoes, celery, and bamboo shoots in a lovely chicken broth base.</span>
+						<span>A tangy yet sweet hot-pot style shrimp soup with beansprouts, tomatoes, celery, and bamboo shoots in a lovely chicken broth base. $13.5</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglespecialties}>Hà Nội Specialties</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglespecialties}>Hà Nội Specialties</h2>
 			{#if specialties == true}
 				<span></span>
 				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>S-1 Bò Lúc Lắc - Vietnamese Shaken Beef</h3>
-						<span>Chunks of tender beef sautéed with butter, garlic, and onions. Served with white or yellow rice, lettuce, tomato, and Vietnamese Fish Sauce.</span>
+						<span>Chunks of tender beef sautéed with butter, garlic, and onions. Served with white or yellow rice, lettuce, tomato, and Vietnamese Fish Sauce. $14.95</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-2 Phở Áp Chảo Hà Nội - Wok Fried Rice Noodle</h3>
-						<span>Pepper steak and mixed vegetables over wok fried rice noodles.</span>
+						<span>Pepper steak and mixed vegetables over wok fried rice noodles. $15.45</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-3 Mì Xào Dòn - Crispy Egg Noodles</h3>
-						<span>A beautiful bird's nest formed from deep fried egg noodles, topped with your choice of stir fried beef, chicken, or BBQ Pork and mixed vegetables.</span>
+						<span>A beautiful bird's nest formed from deep fried egg noodles, topped with your choice of stir fried beef, chicken, or BBQ Pork and mixed vegetables. $15.95</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-4 Bún Bò Huế - Spicy Beef Noodle Soup</h3>
-						<span>A spicy combination of pork and beef broth with rice vermicelli noodles, sliced beef, pork, and pork roll. Garnished with sliced onions and lemongrass. Served with a side of beansprouts, limes, jalapeños, and Thai basil.</span>
+						<span>A spicy combination of pork and beef broth with rice vermicelli noodles, sliced beef, pork, and pork roll. Garnished with sliced onions and lemongrass. Served with a side of beansprouts, limes, jalapeños, and Thai basil. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-5 Bò Kho - Vietnamese Beef Stew</h3>
-						<span>A traditional slow cooked beef stew with carrots accompanied by your choice of egg noodles, rice noodle, or French bread.</span>
+						<span>A traditional slow cooked beef stew with carrots accompanied by your choice of egg noodles, rice noodle, or French bread. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-6 Thai Chicken Curry</h3>
-						<span>White meat chicken, bamboo shoots, onions, carrots, celery, and water chestnuts in a coconut milk yellow curry sauce with your choice of white or yellow rice.</span>
+						<span>White meat chicken, bamboo shoots, onions, carrots, celery, and water chestnuts in a coconut milk yellow curry sauce with your choice of white or yellow rice. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-7 Singapore Noodles</h3>
-						<span>Glass noodles and mixed vegetables stir fried with beef or chicken in brown sauce.</span>
+						<span>Glass noodles and mixed vegetables stir fried with beef or chicken in brown sauce. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-8 Bánh Xèo - Vietnamese Crepes</h3>
-						<span>Two Vietnamese crepe pancakes, prepared in cast iron skillet with shrimp, chicken, pork and beansprouts. Served with large leaf lettuce, and House Vietnamese Fish Sauce.</span>
+						<span>Two Vietnamese crepe pancakes, prepared in cast iron skillet with shrimp, chicken, pork and beansprouts. Served with large leaf lettuce, and House Vietnamese Fish Sauce. $13</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-9 Hủ Tiếu Xào - Wok Fried Flat Rice Noodles</h3>
-						<span>Flat, wide rice noodles wok fried chow-fun style in a savory brown sauce with leafy greens, beansprouts, and your choice of beef, chicken, or tofu.</span>
+						<span>Flat, wide rice noodles wok fried chow-fun style in a savory brown sauce with leafy greens, beansprouts, and your choice of beef, chicken, or tofu. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-10 Mongolian Beef</h3>
-						<span>Sliced beef prepared Mongolian-style with onions and crispy white noodles, Served with white or yellow rice.</span>
+						<span>Sliced beef prepared Mongolian-style with onions and crispy white noodles, Served with white or yellow rice. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-11 Potato Curry</h3>
-						<span>Choice of beef, chicken, or tofu cooked in a coconut milk yellow curry sauce with potatoes, onions, carrots, and celery. Served with white or yellow rice.</span>
+						<span>Choice of beef, chicken, or tofu cooked in a coconut milk yellow curry sauce with potatoes, onions, carrots, and celery. Served with white or yellow rice. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-12 Bách Thái</h3>
-						<span>Rice noodle stir fry with tofu and mixed vegetables. Topped with chopped peanuts, cilantro, and lime wedges.</span>
+						<span>Rice noodle stir fry with tofu and mixed vegetables. Topped with chopped peanuts, cilantro, and lime wedges. $12.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>S-13 Bánh Canh - Tapioca Noodle Soup</h3>
-						<span>An earthy comfort soup served with thick tapioca noodles, shrimp, pork, and BBQ pork in a combination of our savory chicken and pork broth and topped with green onions, fried shallots, and cilantro. Served with a side of fresh beansprouts, lime, jalapeños, and Thai basil.</span>
+						<span>An earthy comfort soup served with thick tapioca noodles, shrimp, pork, and BBQ pork in a combination of our savory chicken and pork broth and topped with green onions, fried shallots, and cilantro. Served with a side of fresh beansprouts, lime, jalapeños, and Thai basil. $13.5</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={toggledessert}>Dessert</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={toggledessert}>Dessert</h2>
 			{#if dessert == true}
-				<span></span>
-				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>D-1 Fried Bananas (6)</h3>
-						<span>Sliced sweet banana deep fried in tempura batter and dusted in powdered sugar.</span>
+						<span>Sliced sweet banana deep fried in tempura batter and dusted in powdered sugar. $3</span>
 					</div>
 				</div>
 			{/if}
 		</div>
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={togglesides}>Sides and Extra</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={togglesides}>Sides and Extra</h2>
 			{#if sides == true}
-				<span></span>
-				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>Side Steamed Rice</h3>
-						<span>White or yellow.</span>
+						<span>White or yellow. $1.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Side Broth</h3>
-						<span></span>
+						<span>Small $1.5, Medium $4, Large $6.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Side Noodles</h3>
@@ -643,52 +639,50 @@
 					</div>
 					<div class="mc-item">
 						<h3>Steam Mixed Vegetables</h3>
-						<span></span>
+						<span>$1.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Extra Tofu</h3>
-						<span></span>
+						<span>$1.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Fried Egg</h3>
-						<span></span>
+						<span>$1.25</span>
 					</div>
 					<div class="mc-item">
 						<h3>Toasted French Baguette</h3>
-						<span></span>
+						<span>$1.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Extra Meat</h3>
-						<span>Shrimp, chicken, pork, beef, BBQ pork, sliced cured pork, or meatballs.</span>
+						<span>Shrimp, chicken, pork, beef, BBQ pork, sliced cured pork, or meatballs. $3</span>
 					</div>
 				</div>
 			{/if}
 		</div>	
 		<div class="menu-category">
-			<h2 class="mc-title p-1 pb-2" on:click={toggledrinks}>Drinks</h2>
+			<h2 class="mc-title p-1 pb-2 my-1" on:click={toggledrinks}>Drinks</h2>
 			{#if drinks == true}
-				<span></span>
-				<hr>
 				<div class="mc-item-list">
 					<div class="mc-item">
 						<h3>Vietnamese-Style French Coffee</h3>
-						<span></span>
+						<span>$4.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Fresh-Brewed Jasmine Blend Tea</h3>
-						<span>Sweet or Unsweet, Hot or Cold</span>
+						<span>Sweet or Unsweet, Hot or Cold $3.5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Domestic Beers</h3>
-						<span>Budlight, Budweiser, Yuengling (Black and Tn, Traditional, and Light), First Magnitude 72 Pale Ale</span>
+						<span>Budlight, Budweiser, Yuengling (Black and Tn, Traditional, and Light), First Magnitude 72 Pale Ale $4</span>
 					</div>
 					<div class="mc-item">
 						<h3>Import Beers</h3>
-						<span>Asahi, Kirin Light, Kirin Ichiban</span>
+						<span>Asahi, Kirin Light, Kirin Ichiban $5</span>
 					</div>
 					<div class="mc-item">
 						<h3>Fountain Drink</h3>
-						<span>Coke, Diet Coke, and Sprite</span>
+						<span>Coke, Diet Coke, and Sprite $3</span>
 					</div>
 				</div>
 			{/if}
@@ -768,11 +762,12 @@
 		justify-content: center;
 		flex-direction: row;
 		flex-flow: wrap;
+		padding-bottom: 1em;
 	}
 
 	.mc-item {
 		width: 400px;
-		margin: .5em;
+		margin: .3em;
 		padding: 6px;
 		height: auto;
 		text-align: center;
