@@ -748,7 +748,7 @@
 		background: rgb(215, 236, 255);
 	}
 	.mc-title:hover {
-		background: rgba(0, 100, 255, .1);
+		background: rgba(0, 100, 255, .05);
 		transition: .3s all;
 		cursor: pointer;
 	}
