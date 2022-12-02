@@ -1,4 +1,12 @@
 <script>
+
+	$: innerWidth = 0
+
+	let displayCategories = false
+	const mcToggle = () => {
+		displayCategories = !displayCategories
+	}
+
 	let displayedCategory = "appetizer"
 	const toggleappetizer = () => {
 		displayedCategory = "appetizer"
@@ -53,6 +61,8 @@
 	}
 </script>
 
+<svelte:window bind:innerWidth />
+
 <main>
 	<header class="bg-black py-5">
 		<div class="title my-2 mb-4">
@@ -67,23 +77,30 @@
 		<h1 class="p-4 menu-title">Menu</h1>
 		<div class="menu-not-the-part-that-says-menu">
 			<div class="menu-category-titles">
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleappetizer}>Appetizers</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglebanhMi}>Bánh Mì - Vietnamese Sandwiches</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglegoi}>Gỏi - Vietnamese Salad</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglefriedRice}>Cơm Chiên - Fried Rice</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglespecial}>Special</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglepho}>Phở</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglericePlatter}>Cơm Dĩa - Rice Platter</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglevermicelli}>Bún - Rice Vermicelli</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglevegetarian}>Dĩa Chay - Vegetarian Dishes</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglefish}>Cả - Fish</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglesquid}>Mực - Squid</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={toggleshrimp}>Tôm - Shrimp</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglespecialties}>Hà Nội Specialties</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={toggledessert}>Dessert</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={togglesides}>Sides and Extra</h2>
-				<h2 class="mc-title p-1 pb-2 my-1" on:click={toggledrinks}>Drinks</h2>
+				{#if innerWidth < 700}
+				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>Toggle Categories
+				{#if displayCategories == true}<img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
+				{#if displayCategories == false}<img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
+				{/if}
+				{#if displayCategories == true || innerWidth > 700}
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='appetizer' ? 'selected' : ''}" on:click={toggleappetizer}>Appetizers</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='banhMi' ? 'selected' : ''}" on:click={togglebanhMi}>Bánh Mì - Vietnamese Sandwiches</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='goi' ? 'selected' : ''}" on:click={togglegoi}>Gỏi - Vietnamese Salad</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='friedRice' ? 'selected' : ''}" on:click={togglefriedRice}>Cơm Chiên - Fried Rice</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='special' ? 'selected' : ''}" on:click={togglespecial}>Special</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='pho' ? 'selected' : ''}" on:click={togglepho}>Phở</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='porkSoup' ? 'selected' : ''}" on:click={toggleporkSoup}>Hủ Tiếu - Noodle Soup in Pork Broth</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='ricePlatter' ? 'selected' : ''}" on:click={togglericePlatter}>Cơm Dĩa - Rice Platter</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='vermicelli' ? 'selected' : ''}" on:click={togglevermicelli}>Bún - Rice Vermicelli</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='vegetarian' ? 'selected' : ''}" on:click={togglevegetarian}>Dĩa Chay - Vegetarian Dishes</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='fish' ? 'selected' : ''}" on:click={togglefish}>Cả - Fish</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='squid' ? 'selected' : ''}" on:click={togglesquid}>Mực - Squid</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='shrimp' ? 'selected' : ''}" on:click={toggleshrimp}>Tôm - Shrimp</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='specialties' ? 'selected' : ''}" on:click={togglespecialties}>Hà Nội Specialties</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='dessert' ? 'selected' : ''}" on:click={toggledessert}>Dessert</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='sides' ? 'selected' : ''}" on:click={togglesides}>Sides and Extra</h2>
+					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='drinks' ? 'selected' : ''}" on:click={toggledrinks}>Drinks</h2>
+				{/if}
 			</div>
 			<div class="menu-category-contents">
 				{#if displayedCategory == "appetizer"}
@@ -696,15 +713,8 @@
 		font-weight: 100;
 	}
 
-	@media(min-width: 600px) {
-		h2{
-			font-size: 2.5em;
-		}
-	}
-	@media(max-width: 599px) {
-		h2{
-			font-size: 1.5em;
-		}
+	h2 {
+		font-size: 2em;
 	}
 
 	h3{
@@ -730,13 +740,14 @@
 		background: #E2F3FF;
 	}
 
-	@media (max-width: 999px) {
+	 /*menu takes up not the whole screen on larger window*/
+	@media (max-width: 1649px) {
 		.menu {
 			max-width: 100%
 		}
 	}
 
-	@media (min-width: 1000px) {
+	@media (min-width: 1650px) {
 		.menu {
 			max-width: 80%
 		}	
@@ -748,9 +759,9 @@
 
 	.menu-not-the-part-that-says-menu {
 		display: flex;
-
-
 	}
+
+
 	@media (max-width: 1499px){
 		.menu-category-titles {
 			min-width: 40%;
@@ -776,12 +787,36 @@
 		padding: 0px 0px 20px 0px !important;
 		margin-bottom: 15px;
 	}
+
+	.mc-toggle:hover {
+		background: rgba(0, 100, 255, .05);
+		transition: .3s all;
+		cursor: pointer;
+	}
+
+	.mc-toggle {
+		border: 2px black solid;
+		width: fit-content;
+		margin: auto;
+	}
+
+	.mc-expand {
+		width: 23px;
+		position: relative;
+		transform: translateY(-5%);
+	}
+
 	.mc-title:nth-child(odd) {
 		background: rgb(215, 236, 255);
 	}
 
 	.mc-title {
 		display: block;
+		border: 1px #e2f3ff solid;
+	}
+
+	.selected {
+		border: 1px black solid;
 	}
 
 	.mc-title:hover {
@@ -810,20 +845,28 @@
 		border: 1px all black;
 	}
 
+	@media (min-width: 800px) {
+		main {
+			max-width: none;
+		}
+	}
+
 	@media (min-width: 700px) {
 		.mc-item{
-			width: 400px;
+			width: 375px;
 		}
 	}
 	@media (max-width: 699px) {
 		.mc-item{
-			width: 60%;
+			width: 100%;
 		}
-	}
-
-	@media (min-width: 800px) {
-		main {
-			max-width: none;
+		.menu-not-the-part-that-says-menu {
+			display: block;
+		}
+		.menu-category-titles {
+			margin: auto;
+			min-width: 100%;
+			max-width: 100%;
 		}
 	}
 
