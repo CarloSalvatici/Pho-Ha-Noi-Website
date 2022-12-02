@@ -845,21 +845,24 @@
 		border: 1px all black;
 	}
 
+	@media (min-width: 1398px) {
+		.mc-item{
+			width: 400px;
+		}
+	}
+	@media (max-width: 1397px) {
+		.mc-item{
+			width: 100%;
+		}
+	}
+
 	@media (min-width: 800px) {
 		main {
 			max-width: none;
 		}
 	}
 
-	@media (min-width: 700px) {
-		.mc-item{
-			width: 375px;
-		}
-	}
 	@media (max-width: 699px) {
-		.mc-item{
-			width: 100%;
-		}
 		.menu-not-the-part-that-says-menu {
 			display: block;
 		}
