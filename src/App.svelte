@@ -78,11 +78,10 @@
 		<div class="menu-not-the-part-that-says-menu">
 			<div class="menu-category-titles">
 				{#if innerWidth < 700}
-				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>Toggle Categories
-				{#if displayCategories == true}<img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
-				{#if displayCategories == false}<img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
+				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>{#if displayCategories == true}Collapse Categories <img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
+				{#if displayCategories == false}Expand Categories <img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
 				{/if}
-				{#if displayCategories == true || innerWidth > 700}
+				{#if displayCategories == true || innerWidth > 699}
 					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='appetizer' ? 'selected' : ''}" on:click={toggleappetizer}>Appetizers</h2>
 					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='banhMi' ? 'selected' : ''}" on:click={togglebanhMi}>Bánh Mì - Vietnamese Sandwiches</h2>
 					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='goi' ? 'selected' : ''}" on:click={togglegoi}>Gỏi - Vietnamese Salad</h2>
@@ -105,6 +104,9 @@
 			<div class="menu-category-contents">
 				{#if displayedCategory == "appetizer"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Appetizers</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>A-1 Chả Giò (2)</h3>
@@ -159,6 +161,9 @@
 				{/if}
 				{#if displayedCategory == "banhMi"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Bánh Mì - Vietnamese Sandwiches</h2>
+						{/if}
 						<span>A light, crisp authentic bite of Vietnam, served on toasted French baguette with our homemade paté and mayonnaise, pickled carrots and daikon, cucumber, fresh jalapeños, cilantro, salt, pepper, and soy sauce.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -223,6 +228,9 @@
 				{/if}
 				{#if displayedCategory == "goi"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Gỏi - Vietnamese Salad</h2>
+						{/if}
 						<span>A deliciously fresh and vibrant salad composed of shredded purple cabbage and green cabbage, onions, pickled carrots and daikon, topped with cilantro, roasted onions and peanuts. All served with Vietnamese Fish Sauce and crispy shrimp chips on the side.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -247,6 +255,9 @@
 				{/if}
 				{#if displayedCategory == "friedRice"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Cơm Chiên - Fried Rice</h2>
+						{/if}
 						<span>A light yet flavorful wok fried rice seasoned with soy sauce, fish sauce, salt, black pepper, and scrambled eggs. Accompanied by beansprouts and scallions upon request.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -279,6 +290,9 @@
 				{/if}
 				{#if displayedCategory == "special"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Special</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>SP-1 Vietnamese Curry Soup</h3>
@@ -293,6 +307,9 @@
 				{/if}
 				{#if displayedCategory == "pho"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Phở</h2>
+						{/if}
 						<span>An aromatic and savory soup served with thin rice noodles over our signature beef broth with sliced onions, scallions, and cilantro. All soups come with a side of fresh beansprouts, jalapenos, lime, and Thai basil.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -337,6 +354,9 @@
 				{/if}
 				{#if displayedCategory == "porkSoup"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Hủ Tiếu - Noodle Soup in Pork Broth</h2>
+						{/if}
 						<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots, chives, and a salted radish crumble. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -365,6 +385,9 @@
 				{/if}
 				{#if displayedCategory == "ricePlatter"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Cơm Dĩa - Rice Platter</h2>
+						{/if}
 						<span>Rice entrees are served with your choice of white or yellow rice, a side of lettuce, tomato, pickled carrots and daikon, and a sweet and tangy Vietnamese Fish Sauce.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -413,6 +436,9 @@
 				{/if}
 				{#if displayedCategory == "vermicelli"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Bún - Rice Vermicelli</h2>
+						{/if}
 						<span>A salad-style rice noodle bowl that starts with a base of shredded lettuce, cucumber, and beansprouts topped with rice vermicelli noodles finished with crunchy peanuts, and fried onion topping. Served with Vietnamese Fish Sauce on side.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -449,6 +475,9 @@
 				{/if}
 				{#if displayedCategory == "vegetarian"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Dĩa Chay - Vegetarian Dishes</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>VG-1 Cơm Đậu Hủ Chiên Sốt Cà</h3>
@@ -483,6 +512,9 @@
 				{/if}
 				{#if displayedCategory == "fish"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Cả - Fish</h2>
+						{/if}
 						<span>Entrees include two whitefish fillets deep fried with a variety of different preparation and sauces. Served with white or yellow rice.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -503,6 +535,9 @@
 				{/if}
 				{#if displayedCategory == "squid"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Mực - Squid</h2>
+						{/if}
 						<span>All squid entrees are served with white or yellow rice.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -527,6 +562,9 @@
 				{/if}
 				{#if displayedCategory == "shrimp"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-2">Tôm - Shrimp</h2>
+						{/if}
 						<span>Shrimp entrees are served with white or yellow rice.</span>
 						<hr>
 						<div class="mc-item-list">
@@ -555,6 +593,9 @@
 				{/if}
 				{#if displayedCategory == "specialties"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Hà Nội Specialties</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>S-1 Bò Lúc Lắc - Vietnamese Shaken Beef</h3>
@@ -613,6 +654,9 @@
 				{/if}
 				{#if displayedCategory == "dessert"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Dessert</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>D-1 Fried Bananas (6)</h3>
@@ -623,6 +667,9 @@
 				{/if}
 				{#if displayedCategory == "sides"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Sides and Extra</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>Side Steamed Rice</h3>
@@ -661,6 +708,9 @@
 				{/if}	
 				{#if displayedCategory == "drinks"}
 					<div class="menu-category">
+						{#if innerWidth < 701}
+							<h2 class="mc-mobile-title pt-4 mb-0">Drinks</h2>
+						{/if}
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>Vietnamese-Style French Coffee</h3>
