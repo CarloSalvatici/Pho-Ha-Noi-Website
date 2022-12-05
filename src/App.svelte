@@ -113,7 +113,7 @@
 								<span>Crispy fried Vietnamese egg rolls. Served with Fish Sauce. $4.5</span>
 							</div>
 							<div class="mc-item">
-								<h3>A-2 Chả Hũ Chay (2)</h3>
+								<h3>A-2 Chả Giò Chay (2)</h3>
 								<span>Crispy fried vegetarian egg rolls. Served with Pineapple Sauce. $4.5</span>
 							</div>
 							<div class="mc-item">
@@ -318,23 +318,23 @@
 								<span>House special combination soup served with thin slices of medium rare beef, brisket, flank, tendon, tripe, and sliced beef meatballs. $15</span>
 							</div>
 							<div class="mc-item">
-								<h3>P-2 Phở Tải, Nạm, Gân, Sảch</h3>
+								<h3>P-2 Phở Tái, Nạm, Gân, Sảch</h3>
 								<span>Rice noodle soup with thin slices of medium rare beef, flank, tendon, and tripe. $13.5</span>
 							</div>
 							<div class="mc-item">
-								<h3>P-3 Phở Tải Nạm</h3>
+								<h3>P-3 Phở Tái Nạm</h3>
 								<span>Rice noodle soup with thin slices of medium rare beef and flank. $13</span>
 							</div>
 							<div class="mc-item">
-								<h3>P-4 Phở Tải Gân</h3>
+								<h3>P-4 Phở Tái Gân</h3>
 								<span>Rice noodle soup with thin slices of medium rare beef and tendon. $13</span>
 							</div>
 							<div class="mc-item">
-								<h3>P-5 Phở Tải Sảch</h3>
+								<h3>P-5 Phở Tái Sảch</h3>
 								<span>Rice noodle soup with thin slices of medium rare beef and tripe. $13</span>
 							</div>
 							<div class="mc-item">
-								<h3>P-6 Phở Tải</h3>
+								<h3>P-6 Phở Tái</h3>
 								<span>Rice noodle soup with thin slices of medium rare beef. $13</span>
 							</div>
 							<div class="mc-item">
