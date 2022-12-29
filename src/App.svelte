@@ -10,54 +10,71 @@
 	let displayedCategory = "appetizer"
 	const toggleappetizer = () => {
 		displayedCategory = "appetizer"
+		displayCategories = false
 	}
 	const togglebanhMi = () => {
 		displayedCategory = "banhMi"
+		displayCategories = false
 	}
 	const togglegoi = () => {
 		displayedCategory = "goi"
+		displayCategories = false
 	}
 	const togglefriedRice = () => {
 		displayedCategory = "friedRice"
+		displayCategories = false
 	}
 	const togglespecial = () => {
         displayedCategory = "special"
+		displayCategories = false
 	}
 	const togglepho = () => {
         displayedCategory = "pho"
+		displayCategories = false
 	}
 	const toggleporkSoup = () => {
         displayedCategory = "porkSoup"
+		displayCategories = false
 	}
 	const togglericePlatter = () => {
         displayedCategory = "ricePlatter"
+		displayCategories = false
 	}
 	const togglevermicelli = () => {
         displayedCategory = "vermicelli"
+		displayCategories = false
 	}
 	const togglevegetarian = () => {
         displayedCategory = "vegetarian"
+		displayCategories = false
 	}
 	const togglefish = () => {
         displayedCategory = "fish"
+		displayCategories = false
 	}
 	const togglesquid = () => {
         displayedCategory = "squid"
+		displayCategories = false
 	}
 	const toggleshrimp = () => {
         displayedCategory = "shrimp"
+		displayCategories = false
 	}
 	const togglespecialties = () => {
         displayedCategory = "specialties"
+		displayCategories = false
 	}
 	const toggledessert = () => {
         displayedCategory = "dessert"
+		displayCategories = false
 	}
 	const togglesides = () => {
         displayedCategory = "sides"
+		displayCategories = false
 	}
 	const toggledrinks = () => {
         displayedCategory = "drinks"
+		displayCategories = false
 	}
 </script>
 
