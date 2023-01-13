@@ -79,7 +79,7 @@
 			<div class="menu-category-titles">
 				{#if innerWidth < 700}
 				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>{#if displayCategories == true}Collapse Categories <img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
-				{#if displayCategories == false}Expand Categories <img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
+				{#if displayCategories == false}View Categories <img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
 				{/if}
 				{#if displayCategories == true || innerWidth > 699}
 					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='appetizer' ? 'selected' : ''}" on:click={toggleappetizer}>Appetizers</h2>
@@ -139,10 +139,6 @@
 							<div class="mc-item">
 								<h3>A-8 Mushroom Soup</h3>
 								<span>Mushroom and Tofu in a Savory Chicken Broth. $4</span>
-							</div>
-							<div class="mc-item">
-								<h3>A-9 Shrimp Cake (4)</h3>
-								<span>Battered Sweet Potato Fries topped with Shrimp and served with Vietnamese Fish Sauce. $7.5</span>
 							</div>
 							<div class="mc-item">
 								<h3>A-10 Samosas (4)</h3>
@@ -357,7 +353,7 @@
 						{#if innerWidth < 701}
 							<h2 class="mc-mobile-title pt-2">Hủ Tiếu - Noodle Soup in Pork Broth</h2>
 						{/if}
-						<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots, chives, and a salted radish crumble. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
+						<span>Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots and chives. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.</span>
 						<hr>
 						<div class="mc-item-list">
 							<div class="mc-item">
@@ -628,10 +624,6 @@
 							<div class="mc-item">
 								<h3>S-8 Bánh Xèo - Vietnamese Crepes</h3>
 								<span>Two Vietnamese crepe pancakes, prepared in cast iron skillet with shrimp, chicken, pork and beansprouts. Served with large leaf lettuce, and House Vietnamese Fish Sauce. $13</span>
-							</div>
-							<div class="mc-item">
-								<h3>S-9 Hủ Tiếu Xào - Wok Fried Flat Rice Noodles</h3>
-								<span>Flat, wide rice noodles wok fried chow-fun style in a savory brown sauce with leafy greens, beansprouts, and your choice of beef, chicken, or tofu. $12.5</span>
 							</div>
 							<div class="mc-item">
 								<h3>S-10 Mongolian Beef</h3>
