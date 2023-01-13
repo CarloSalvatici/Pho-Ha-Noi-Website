@@ -147,7 +147,7 @@
 							</div>
 							<div class="mc-item">
 								<h3>A-6 Mực Chiên Giòn</h3>
-								<span>Crispy Fried Squid served with Vietnamese Pineapple Sauce. $7.5/span>
+								<span>Crispy Fried Squid served with Vietnamese Pineapple Sauce. $7.5</span>
 							</div>
 							<div class="mc-item">
 								<h3>A-7 Spinach Soup</h3>
