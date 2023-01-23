@@ -624,7 +624,7 @@
 							</div>
 							<div class="mc-item">
 								<h3>S-4 Bún Bò Huế - Spicy Beef Noodle Soup</h3>
-								<span>A spicy combination of pork and beef broth with rice vermicelli noodles, sliced beef, pork, and pork roll. Garnished with sliced onions and lemongrass. Served with a side of beansprouts, limes, jalapeños, and Thai basil. $13</span>
+								<span>Spicy beef broth with rice vermicelli noodles, brisket, sliced pork, and cured pork roll. Garnished with sliced onions and lemongrass. Served with a side of beansprouts, limes, jalapeños, and Thai basil. $13</span>
 							</div>
 							<div class="mc-item">
 								<h3>S-5 Bò Kho - Vietnamese Beef Stew</h3>
