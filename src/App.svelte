@@ -182,7 +182,7 @@
 						<div class="mc-item-list">
 							<div class="mc-item">
 								<h3>#1 Bẩnh Mì Đặc Biệt - Combination</h3>
-								<span>Sliced French ham (jambon), pork, cured pork roll and paté. $7</span>
+								<span>Sliced French ham (jambon), sliced pork, cured pork roll and paté. $7</span>
 							</div>
 							<div class="mc-item">
 								<h3>#2 Bẩnh Mì Thịt - Sliced Pork</h3>
@@ -213,8 +213,8 @@
 								<span>Crunchy, textured strands of pork skin tossed with onions in Vietnamese Fish Sauce. $6.5</span>
 							</div>
 							<div class="mc-item">
-								<h3>#9 Bình Mì Bò Xào - Sliced Stir Fried Beef</h3>
-								<span>Sliced beef and onions marinated in house seasonings. $6.5</span>
+								<h3>#9 Bình Mì Bò Xào - Sliced Stir Fried Lemongrass Beef</h3>
+								<span>Lemongrass beef and onions marinated in house seasonings. $6.5</span>
 							</div>
 							<div class="mc-item">
 								<h3>#10 Bình Mì Chả & Paté - Sliced Cured Pork Roll And Paté</h3>
@@ -418,7 +418,7 @@
 							</div>
 							<div class="mc-item">
 								<h3>#4 Cơm Thịt Bì Xào Hành Tây</h3>
-								<span>Rice with stir fried beef and onions. $13</span>
+								<span>Rice with stir fried lemongrass beef and onions. $13</span>
 							</div>
 							<div class="mc-item">
 								<h3>#5 Cơm Thịt Bỏ Xào Rau Cải</h3>
