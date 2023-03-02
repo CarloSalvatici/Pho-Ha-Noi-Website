@@ -86,7 +86,7 @@
 			<h1 class="text-white title-text my-0 me-3">PHỞ HÀ NỘI</h1>
 			<img class="pho-bowl-image" src="pho-bowl.png" alt="Pho Bowl">
 		</div>
-		<h4 class="text-white">(352) 373-2098</h4>
+		<a href="tel:3523732098"><h4 class="text-white phone-number">(352) 373-2098</h4></a>
 		<h4 class="text-white">3550 SW 34th Street</h4>
 		<h4 class="text-white">Dine In or Carry Out from 11:00AM - 9:30PM</h4>
 	</header>
@@ -95,8 +95,10 @@
 		<div class="menu-not-the-part-that-says-menu">
 			<div class="menu-category-titles">
 				{#if innerWidth < 700}
-				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>{#if displayCategories == true}Collapse Categories <img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
-				{#if displayCategories == false}View Categories <img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}</h2>
+				<h2 class="mc-toggle pt-1 pb-2 px-3 my-1" on:click={mcToggle}>
+					{#if displayCategories == true}Collapse Categories <img class="mc-expand" src="expand-arrow-up.png" alt="Expand Arrow">{/if}
+					{#if displayCategories == false}View Categories <img class="mc-expand" src="expand-arrow-down.png" alt="Expand Arrow">{/if}
+				</h2>
 				{/if}
 				{#if displayCategories == true || innerWidth > 699}
 					<h2 class="mc-title p-1 pb-2 my-1 {displayedCategory ==='appetizer' ? 'selected' : ''}" on:click={toggleappetizer}>Appetizers</h2>
@@ -778,6 +780,10 @@
 
 	h3{
 		padding-top: 1em;
+	}
+
+	header > a {
+		text-decoration: none;
 	}
 
 	.title-text {
