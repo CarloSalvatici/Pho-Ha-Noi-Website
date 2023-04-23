@@ -1,6 +1,17 @@
 <script>
-
+	import axios from "axios"
+	import { onMount } from 'svelte'
 	$: innerWidth = 0
+	const url = 'https://carlo-web.herokuapp.com/api/accounts'
+
+	onMount(async () => {
+		try {
+			let res = await axios.get(url, {params: {getType: "getBusinessDataOf", businessName: "whatever"}})
+			console.log(res.data.msg)
+		} catch(err) {
+			console.log(err)
+		}
+	})
 
 	let displayCategories = false
 	const mcToggle = () => {
