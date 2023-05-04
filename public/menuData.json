@@ -1,0 +1,669 @@
+[
+    {
+        "categoryTitle": "Appetizers",
+        "description": "",
+        "items": [
+            {
+                "name": "A-1 Chả Giò (2)",
+                "description": "Crispy fried Vietnamese egg rolls. Served with Fish Sauce.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-2 Chả Giò Chay (2)",
+                "description": "Crispy fried vegetarian egg rolls. Served with Pineapple Sauce.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-3 Gỏi Cuốn (2)",
+                "description": "Vietnamese Soft Spring Rolls - Choice of Shrimp and Pork, Tofu, Grilled Pork or Chicken, Vermicelli Noodles, Lettuce and Cilantro wrapped in clear rice paper. Served with Peanut Sauce.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-4 Edamame",
+                "description": "Boiled Green Soybeans finished with a light dusting of Sea Salt.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-5 Dumplings",
+                "description": "Choice of Pan Fried or Steamed Chicken Dumplings served with Ginger Sauce.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-6 Mực Chiên Giòn",
+                "description": "Crispy Fried Squid served with Vietnamese Pineapple Sauce.",
+                "price": "$7.5"
+            },
+            {
+                "name": "A-7 Spinach Soup",
+                "description": "Spinach Soup Spinach and Tofu in a savory Chicken Broth.",
+                "price": "$4"
+            },
+            {
+                "name": "A-8 Mushroom Soup",
+                "description": "Mushroom and Tofu in a Savory Chicken Broth.",
+                "price": "$4"
+            },
+            {
+                "name": "A-10 Samosas (4)",
+                "description": "Chicken marinated with Yellow Curry deep-fried in Wonton Skins and served with Pineapple Sauce.",
+                "price": "$4.5"
+            },
+            {
+                "name": "A-11 Butterfly Shrimp",
+                "description": "Shrimp Breaded and Fried. Served with Pineapple Sauce.",
+                "price": "$7.5"
+            },
+            {
+                "name": "A-12 Crispy Fried Chicken Wings (8)",
+                "description": "Crispy fried chicken wings tossed in choice of Sweet Chili or Vietnamese Fish Sauce.",
+                "price": "$12"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Bánh Mì - Vietnamese Sandwiches",
+        "description": "A light, crisp authentic bite of Vietnam, served on toasted French baguette with our homemade paté and mayonnaise, pickled carrots and daikon, cucumber, fresh jalapeños, cilantro, salt, pepper, and soy sauce.",
+        "items": [
+            {
+                "name": "#1 Bẩnh Mì Đặc Biệt - Combination",
+                "description": "Sliced French ham (jambon), sliced pork, cured pork roll and paté.",
+                "price": "$7"
+            },
+            {
+                "name": "#2 Bẩnh Mì Thịt - Sliced Pork",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#3 Bẩng Mì Chả - Sliced Cured Pork Roll",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#4 Bẩnh Mì Thịt Gà Nướng - Grilled Pork",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#5 Bẩnh Mì Thịt Heo Nướng",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#6 Bình Mì Xả Xìu",
+                "description": "Slow roasted pork marinated in Chinese-style barbecue and finished with BBQ glaze.",
+                "price": "$6.5"
+            },
+            {
+                "name": "#7 Bánh Mì Chả & Thịt - Sliced Cured Pork Roll And Pork",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#8 Bánh Mì Bì - Shredded Pork Skins",
+                "description": "Crunchy, textured strands of pork skin tossed with onions in Vietnamese Fish Sauce.",
+                "price": "$6.5"
+            },
+            {
+                "name": "#9 Bình Mì Bò Xào - Sliced Stir Fried Lemongrass Beef",
+                "description": "Lemongrass beef and onions marinated in house seasonings.",
+                "price": "$6.5"
+            },
+            {
+                "name": "#10 Bình Mì Chả & Paté - Sliced Cured Pork Roll And Paté",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#11 Bánh Mì Paté - Paté Spread",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#12 Bánh Mì Ham & Giả - Jambon And Sliced Cured Pork Roll",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#13 Bánh Mì Ham Paté - Jambon And Paté Spread",
+                "description": "",
+                "price": "$6.5"
+            },
+            {
+                "name": "#14 Bánh Mì Chay - Vegetarian",
+                "description": "Tofu and mixed vegetables wok fried in house seasonings.",
+                "price": "$6.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Gỏi - Vietnamese Salad",
+        "description": "A deliciously fresh and vibrant salad composed of shredded purple cabbage and green cabbage, onions, pickled carrots and daikon, topped with cilantro, roasted onions and peanuts. All served with Vietnamese Fish Sauce and crispy shrimp chips on the side.",
+        "items": [
+            {
+                "name": "G-1 Gỏi Tôm",
+                "description": "Shrimp Salad",
+                "price": "$9.5"
+            },
+            {
+                "name": "G-2 Gỏi Gà",
+                "description": "Chicken Salad",
+                "price": "$8.5"
+            },
+            {
+                "name": "G-3 Gỏi Chay",
+                "description": "Vegetarian Tofu Salad",
+                "price": "$7.5"
+            },
+            {
+                "name": "G-4 Gỏi Thập Cẩm",
+                "description": "Combination Pork, Shrimp, and Chicken Salad",
+                "price": "$10.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Cơm Chiên - Fried Rice",
+        "description": "A light yet flavorful wok fried rice seasoned with soy sauce, fish sauce, salt, black pepper, and scrambled eggs. Accompanied by beansprouts and scallions upon request.",
+        "items": [
+            {
+                "name": "F-1 Cơm Chiên Tôm",
+                "description": "Shrimp Fried Rice",
+                "price": "$13.5"
+            },
+            {
+                "name": "F-2 Cơm Chiên Gà",
+                "description": "Chicken Fried Rice",
+                "price": "$13"
+            },
+            {
+                "name": "F-3 Cơm Chiên",
+                "description": "Beef Fried Rice",
+                "price": "$13"
+            },
+            {
+                "name": "F-4 Cơm Chiên Thập Càm",
+                "description": "Combination Fried Rice (Shrimp, Chicken, Beef)",
+                "price": "$13.5"
+            },
+            {
+                "name": "F-5 Cơm Chiên Chay",
+                "description": "Vegetable Fried Rice with Tofu",
+                "price": "$13"
+            },
+            {
+                "name": "F-6 Cơm Chiên Xã Xìu",
+                "description": "Barbeque Pork Fried Rice",
+                "price": "$13"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Special",
+        "description": "",
+        "items": [
+            {
+                "name": "SP-1 Vietnamese Curry Soup",
+                "description": "A traditional bone-in chicken curry soup served with sweet potato, potato, and a side of white/yellow rice, vermicelli noodles or French bread.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SP-2 House Special Pork Fried Rice",
+                "description": "A light and flavorful fried rice with BBQ pork, grilled pork, and mixed veggies.",
+                "price": "$13.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Phở",
+        "description": "An aromatic and savory soup served with thin rice noodles over our signature beef broth with sliced onions, scallions, and cilantro. All soups come with a side of fresh beansprouts, jalapenos, lime, and Thai basil.",
+        "items": [
+            {
+                "name": "P-1 Phở Hà Nội Xe Lữa",
+                "description": "House special combination soup served with thin slices of medium rare beef, brisket, flank, tendon, tripe, and sliced beef meatballs.",
+                "price": "$15"
+            },
+            {
+                "name": "P-2 Phở Tái, Nạm, Gân, Sảch",
+                "description": "Rice noodle soup with thin slices of medium rare beef, flank, tendon, and tripe.",
+                "price": "$13.5"
+            },
+            {
+                "name": "P-3 Phở Tái Nạm",
+                "description": "Rice noodle soup with thin slices of medium rare beef and flank.",
+                "price": "$13"
+            },
+            {
+                "name": "P-4 Phở Tái Gân",
+                "description": "Rice noodle soup with thin slices of medium rare beef and tendon.",
+                "price": "$13"
+            },
+            {
+                "name": "P-5 Phở Tái Sảch",
+                "description": "Rice noodle soup with thin slices of medium rare beef and tripe.",
+                "price": "$13"
+            },
+            {
+                "name": "P-6 Phở Tái",
+                "description": "Rice noodle soup with thin slices of medium rare beef.",
+                "price": "$13"
+            },
+            {
+                "name": "P-7 Phở Bò Viên",
+                "description": "Rice noodle soup with sliced meatballs.",
+                "price": "$13"
+            },
+            {
+                "name": "P-8 Phở Gà",
+                "description": "Rice noodle soup serve with white chicken in a savory chicken broth.",
+                "price": "$13"
+            },
+            {
+                "name": "P-9 Phở Chay",
+                "description": "Rice noodle soup with mixed vegetables and tofu in a vegetarian broth.",
+                "price": "$13"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Hủ Tiếu - Noodle Soup in Pork Broth",
+        "description": "Your choice of either rice noodle, egg noodles, or a combination of both served with or without our delicious, fragrant homemade pork broth and finished with fried shallots and chives. All soups come with a side of beansprouts, lime, jalapeños, and Thai basil.",
+        "items": [
+            {
+                "name": "T-1 Hủ Tiếu Hà Nội",
+                "description": "Noodle soup with BBQ pork and seafood medly of crab meat, squid, and shrimp.",
+                "price": "$15"
+            },
+            {
+                "name": "T-2 Hủ Tiếu Xả Xíu",
+                "description": "Noodle soup with our slow roasted Chinese BBQ pork.",
+                "price": "$13"
+            },
+            {
+                "name": "T-3 Hủ Tiếu Tôm Chiên",
+                "description": "Noodle soup with fried shrimp.",
+                "price": "$13.5"
+            },
+            {
+                "name": "T-4 Hủ Tiếu Bò Viên",
+                "description": "Noodle soup with sliced meatballs.",
+                "price": "$13"
+            },
+            {
+                "name": "T-5 Hủ Tiếu Hải Sản",
+                "description": "Noodle soup with seafood combination of crab meat, squid, and shrimp.",
+                "price": "$15"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Cơm Dĩa - Rice Platter",
+        "description": "Rice entrees are served with your choice of white or yellow rice, a side of lettuce, tomato, pickled carrots and daikon, and a sweet and tangy Vietnamese Fish Sauce.",
+        "items": [
+            {
+                "name": "#1 Cơm Thịt Heo Nướng",
+                "description": "Rice with grilled pork.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#2 Cơm Bì Thịt Heo Nướng",
+                "description": "Rice with grilled pork and shredded pork skins.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#3 Cơm Bì Chả Thịt Heo Nướng",
+                "description": "Rice with shredded pork skins, steamed egg cake, and grilled pork.",
+                "price": "$13.5"
+            },
+            {
+                "name": "#4 Cơm Thịt Bì Xào Hành Tây",
+                "description": "Rice with stir fried lemongrass beef and onions.",
+                "price": "$13"
+            },
+            {
+                "name": "#5 Cơm Thịt Bỏ Xào Rau Cải",
+                "description": "Rice with stir fried beef and vegetables.",
+                "price": "$13"
+            },
+            {
+                "name": "#6 Cơm Gà Hà Nội Xào Chua Ngọt",
+                "description": "Breaded chicken, bamboo shoots, and mixed vegetables wok sautéed in a sweet and sour brown glaze.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#7 Cơm Gà Xào Lăn",
+                "description": "Chicken and glass noodles with onions, celery, carrots, and diced blacked mushrooms in a yellow curry and fish sauce blend.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#8 Cơm Gà Xào Hạt Điều",
+                "description": "White meat chicken stir fried with onions, celery, and green peppers in a cashew sauce.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#9 Cơm Gà Nướng",
+                "description": "Rice with grilled chicken.",
+                "price": "$12.5"
+            },
+            {
+                "name": "#10 Cơm Gà Xào Rau Cải",
+                "description": "Rice with stir fried chicken and mixed vegetables.",
+                "price": "$12.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Bún - Rice Vermicelli",
+        "description": "A salad-style rice noodle bowl that starts with a base of shredded lettuce, cucumber, and beansprouts topped with rice vermicelli noodles finished with crunchy peanuts, and fried onion topping. Served with Vietnamese Fish Sauce on side.",
+        "items": [
+            {
+                "name": "V-1 Bún Gà Nướng",
+                "description": "Rice vermicelli with grilled chicken.",
+                "price": "$12.5"
+            },
+            {
+                "name": "V-2 Bún Heo Nướng",
+                "description": "Rice vermicelli with grilled pork.",
+                "price": "$12.5"
+            },
+            {
+                "name": "V-3 Bún Chả Giò",
+                "description": "Rice vermicelli with crispy egg rolls.",
+                "price": "$12.5"
+            },
+            {
+                "name": "V-4 Bún Chả Giò Thịt Nướng",
+                "description": "Rice vermicelli with crispy egg rolls and choice of grilled pork or chicken.",
+                "price": "$13.5"
+            },
+            {
+                "name": "V-5 Bún Bỏ Xào",
+                "description": "Rice vermicelli with stir fried lemongrass, beef, and onions.",
+                "price": "$12.5"
+            },
+            {
+                "name": "V-6 Bún Gà Xào",
+                "description": "Rice vermicelli with stir fried lemongrass, chicken, and onions.",
+                "price": "$12.5"
+            },
+            {
+                "name": "V-7 Bún Chả Giò Chay",
+                "description": "Rice vermicelli with vegetarian egg rolls and tofu.",
+                "price": "$12.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Dĩa Chay - Vegetarian Dishes",
+        "description": "",
+        "items": [
+            {
+                "name": "VG-1 Cơm Đậu Hủ Chiên Sốt Cà",
+                "description": "White or yellow rice with fried tofu in tomato sauce.",
+                "price": "$12.5"
+            },
+            {
+                "name": "VG-2 Cơm Đầu Hủ Chiên Xào Rau",
+                "description": "White or yellow rice with stir fried tofu and vegetables.",
+                "price": "$12.5"
+            },
+            {
+                "name": "VG-3 Bủn Rau Đậu Hủ",
+                "description": "Rice vermicelli with steamed mixed vegetables and tofu.",
+                "price": "$12.5"
+            },
+            {
+                "name": "VG-4 Bủn Xào Rau Đậu Hủ",
+                "description": "Rice vermicelli with stir fried tofu and mixed vegetables.",
+                "price": "$12.5"
+            },
+            {
+                "name": "VG-5 Mì Xào Dòn Hay Mềm Rau Cải",
+                "description": "Pan fried egg noodles (soft or crispy) with vegetables.",
+                "price": "$12.5"
+            },
+            {
+                "name": "VG-6 Mì Xào Dòn Hay Mềm Rau Cài Đậu Hủ",
+                "description": "Pan fried egg noodles (soft or crispy) with tofu and vegetables.",
+                "price": "$13"
+            },
+            {
+                "name": "VG-7 Phở Xao Rau Cải Đấu Hú",
+                "description": "Pan fried rice noodles with tofu and mixed vegetables.",
+                "price": "$13"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Cả - Fish",
+        "description": "Entrees include two whitefish fillets deep fried with a variety of different preparation and sauces. Served with white or yellow rice.",
+        "items": [
+            {
+                "name": "FH-1 Cà Chiên Vàng Nước Mắm Gừng",
+                "description": "Fried fish in ginger sauce.",
+                "price": "$14.45"
+            },
+            {
+                "name": "FH-2 Cà Chiên Sốt Cà",
+                "description": "Fried fish, tomatoes, and white onions in a tomato sauce.",
+                "price": "$14.45"
+            },
+            {
+                "name": "FH-3 Cà Chiên Sốt Chua Ngọt",
+                "description": "Fried fish, carrots, onions, bamboo shoots, celery, and water chestnuts wok sautéed in a sweet and sour sauce.",
+                "price": "$14.45"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Mực - Squid",
+        "description": "All squid entrees are served with white or yellow rice.",
+        "items": [
+            {
+                "name": "SQ-1 Mực Xào Xã Ởt",
+                "description": "Stir fried squid with lemongrass.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SQ-2 Mực Xào Chua Ngọt",
+                "description": "Stir fried sweet and sour squid with mixed vegetables.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SQ-3 Mực Xào Cà Ri",
+                "description": "Yellow curry squid stir fried with onions and green peppers.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SQ-4 Mực Xào Rau Cải",
+                "description": "Stir fried squid with cucumber, celery, onions and tomatoes.",
+                "price": "$13.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Tôm - Shrimp",
+        "description": "Shrimp entrees are served with white or yellow rice.",
+        "items": [
+            {
+                "name": "SH-1 Tôm Rim",
+                "description": "Shrimp marinated in pepper and fish sauce.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SH-2 Tôm Xào Xả Ớt",
+                "description": "Shrimp with lemongrass stir-fry.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SH-3 Tôm Xào Cải Broccoli",
+                "description": "Stir fried shrimp and broccoli.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SH-4 Tôm Xào Rau",
+                "description": "Stir fried shrimp and mixed vegetables.",
+                "price": "$13.5"
+            },
+            {
+                "name": "SH-5 Canh Chua Tôm",
+                "description": "A tangy yet sweet hot-pot style shrimp soup with beansprouts, tomatoes, celery, and bamboo shoots in a lovely chicken broth base.",
+                "price": "$13.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Hà Nội Specialties",
+        "description": "",
+        "items": [
+            {
+                "name": "S-1 Bò Lúc Lắc - Vietnamese Shaken Beef",
+                "description": "Chunks of tender beef sautéed with butter, garlic, and onions. Served with white or yellow rice, lettuce, tomato, and Vietnamese Fish Sauce.",
+                "price": "$14.95"
+            },
+            {
+                "name": "S-2 Phở Áp Chảo Hà Nội - Wok Fried Rice Noodle",
+                "description": "Pepper steak and mixed vegetables over wok fried rice noodles.",
+                "price": "$15.45"
+            },
+            {
+                "name": "S-3 Mì Xào Dòn - Crispy Egg Noodles",
+                "description": "A beautiful bird's nest formed from deep fried egg noodles, topped with your choice of stir fried beef, chicken, or BBQ Pork and mixed vegetables.",
+                "price": "$15.95"
+            },
+            {
+                "name": "S-4 Bún Bò Huế - Spicy Beef Noodle Soup",
+                "description": "Spicy beef broth with rice vermicelli noodles, brisket, sliced pork, and cured pork roll. Garnished with sliced onions and lemongrass. Served with a side of beansprouts, limes, jalapeños, and Thai basil.",
+                "price": "$13"
+            },
+            {
+                "name": "S-5 Bò Kho - Vietnamese Beef Stew",
+                "description": "A traditional slow cooked beef stew with carrots accompanied by your choice of egg noodles, rice noodle, or French bread.",
+                "price": "$13"
+            },
+            {
+                "name": "S-6 Thai Chicken Curry",
+                "description": "White meat chicken, bamboo shoots, onions, carrots, celery, and water chestnuts in a coconut milk yellow curry sauce with your choice of white or yellow rice.",
+                "price": "$12.5"
+            },
+            {
+                "name": "S-7 Singapore Noodles",
+                "description": "Glass noodles and mixed vegetables stir fried with beef or chicken in brown sauce.",
+                "price": "$12.5"
+            },
+            {
+                "name": "S-8 Bánh Xèo - Vietnamese Crepes",
+                "description": "Two Vietnamese crepe pancakes, prepared in cast iron skillet with shrimp, chicken, pork and beansprouts. Served with large leaf lettuce, and House Vietnamese Fish Sauce.",
+                "price": "$13"
+            },
+            {
+                "name": "S-10 Mongolian Beef",
+                "description": "Sliced beef prepared Mongolian-style with onions and crispy white noodles, Served with white or yellow rice.",
+                "price": "$12.5"
+            },
+            {
+                "name": "S-11 Potato Curry",
+                "description": "Choice of beef, chicken, or tofu cooked in a coconut milk yellow curry sauce with potatoes, onions, carrots, and celery. Served with white or yellow rice.",
+                "price": "$12.5"
+            },
+            {
+                "name": "S-12 Bách Thái",
+                "description": "Rice noodle stir fry with tofu and mixed vegetables. Topped with chopped peanuts, cilantro, and lime wedges.",
+                "price": "$12.5"
+            },
+            {
+                "name": "S-13 Bánh Canh - Tapioca Noodle Soup",
+                "description": "An earthy comfort soup served with thick tapioca noodles, shrimp, pork, and BBQ pork in a combination of our savory chicken and pork broth and topped with green onions, fried shallots, and cilantro. Served with a side of fresh beansprouts, lime, jalapeños, and Thai basil.",
+                "price": "$13.5"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Dessert",
+        "description": "",
+        "items": [
+            {
+                "name": "D-1 Fried Bananas (6)",
+                "description": "Sliced sweet banana deep fried in tempura batter and dusted in powdered sugar.",
+                "price": "$3"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Sides and Extra",
+        "description": "",
+        "items": [
+            {
+                "name": "Side Steamed Rice",
+                "description": "White or yellow.",
+                "price": "$1.5"
+            },
+            {
+                "name": "Side Broth",
+                "description": "Small $1.5, Medium $4, Large $6.5",
+                "price": ""
+            },
+            {
+                "name": "Side Noodles",
+                "description": "Rice Noodle $1.5, Egg Noodle $2",
+                "price": ""
+            },
+            {
+                "name": "Steam Mixed Vegetables",
+                "description": "",
+                "price": "$1.5"
+            },
+            {
+                "name": "Extra Tofu",
+                "description": "",
+                "price": "$1.5"
+            },
+            {
+                "name": "Fried Egg",
+                "description": "",
+                "price": "$1.25"
+            },
+            {
+                "name": "Toasted French Baguette",
+                "description": "",
+                "price": "$1.5"
+            },
+            {
+                "name": "Extra Meat",
+                "description": "Shrimp, chicken, pork, beef, BBQ pork, sliced cured pork, or meatballs.",
+                "price": "$3"
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Drinks",
+        "description": "",
+        "items": [
+            {
+                "name": "Vietnamese-Style French Coffee",
+                "description": "",
+                "price": "$4.5"
+            },
+            {
+                "name": "Fresh-Brewed Jasmine Blend Tea",
+                "description": "Sweet or Unsweet, Hot or Cold",
+                "price": "$3.5"
+            },
+            {
+                "name": "Domestic Beers",
+                "description": "Budlight, Budweiser, Yuengling (Black and Tn, Traditional, and Light), First Magnitude 72 Pale Ale",
+                "price": "$4"
+            },
+            {
+                "name": "Import Beers",
+                "description": "Asahi, Kirin Light, Kirin Ichiban",
+                "price": "$5"
+            },
+            {
+                "name": "Fountain Drink",
+                "description": "Coke, Diet Coke, and Sprite",
+                "price": "$3"
+            }
+        ]
+    }
+]
