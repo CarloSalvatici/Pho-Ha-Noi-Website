@@ -6,7 +6,7 @@
 	const url = 'https://carlo-web.herokuapp.com/api/accounts'
 	let menuData = menuJson
 	let displayCategories = false
-	let displayedCategory = "0"
+	let displayedCategory = 0
 
 	onMount(async () => {
 		try {
