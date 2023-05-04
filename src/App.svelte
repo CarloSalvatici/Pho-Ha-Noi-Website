@@ -1,16 +1,19 @@
 <script>
 	import axios from "axios"
 	import { onMount } from 'svelte'
-	import menuData from "../public/menuData.json";
+	import menuJson from "../public/menuData.json";
 	$: innerWidth = 0
 	const url = 'https://carlo-web.herokuapp.com/api/accounts'
+	let menuData = menuJson
 	let displayCategories = false
 	let displayedCategory = "0"
 
 	onMount(async () => {
 		try {
-			let res = await axios.get(url, {params: {getType: "getBusinessDataOf", businessName: "whatever"}})
+			let res = await axios.get(url, {params: {getType: "getBusinessDataOf", businessName: "Pho Ha Noi"}})
+			menuData = res.data.businessData.menu
 			console.log(res.data.msg)
+
 		} catch(err) {
 			console.log(err)
 		}
