@@ -201,16 +201,17 @@
 		margin-bottom: 15px;
 	}
 
+	.mc-toggle {
+		border: 2px black solid;
+		background: none;
+		width: fit-content;
+		margin: auto;
+	}
+
 	.mc-toggle:hover {
 		background: rgba(0, 100, 255, .05);
 		transition: .3s all;
 		cursor: pointer;
-	}
-
-	.mc-toggle {
-		border: 2px black solid;
-		width: fit-content;
-		margin: auto;
 	}
 
 	.mc-expand {
