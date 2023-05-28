@@ -86,6 +86,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="my-4">An 18% charge will be added to all bills of parties of 5 or more.</div>
 	</div>
 </main>
 
